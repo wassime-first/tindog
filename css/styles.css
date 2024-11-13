@@ -1,0 +1,132 @@
+
+#title {
+    color: #e1ffff;
+    background-color: #ff5b54;
+    /*clip-path: polygon(0 0, 100% 0, 100% 70%, 70% 70%, 0 100%);*/
+    padding-top: 3%;
+}
+
+.container {
+    overflow: hidden;
+}
+
+#features {
+    background-color: #fff;
+    padding: 10% 17%;
+}
+
+.phone {
+    position: relative;
+    transform: rotate(30deg);
+    width: 60%;
+    left: 15%;
+    top: 15%;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+
+.ic {
+    font-size: 5.5rem;
+    color: #ff5b54;
+    text-align: center;
+}
+
+.ic:hover {
+    color: #ff099a;
+}
+
+#testimonials {
+    padding: 7% 17%;
+    text-align: center;
+    background-color: #ff5b54;
+    color: #fff;
+}
+
+.teste-img {
+    margin: 20px;
+}
+
+#press\  {
+    text-align: center;
+    background-color: #ff5b54;
+}
+
+.press-logo {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+.card {
+    margin: 3% 2%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.price-title {
+    margin-left: 10px;
+}
+
+@media (max-width: 770px) {
+    #title {
+        text-align: center;
+    }
+
+    .phone {
+        transform: rotate(0);
+        position: static;
+    }
+
+    .teste-img {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1028px) and (min-width: 770px) {
+    .phone {
+        transform: rotate(0);
+    }
+}
+
+#cta {
+    background-color: #ff5b54;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+
+.btn-last {
+    margin: 1rem;
+}
+
+#footer {
+    padding: 100px 100px 0;
+    text-align: center;
+}
+
+.icons-sm {
+    margin: 10px;
+    color: black;
+    font-size: 2rem;
+}
+
+.i1 i:hover {
+    color: #ff4615;
+
+}
+
+.i1 i {
+    color: black;
+    margin: 1rem;
+}
+
+#footer p {
+    font-size: 1.5rem;
+}
